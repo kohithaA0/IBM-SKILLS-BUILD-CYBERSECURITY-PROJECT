@@ -1,6 +1,6 @@
 # IBM-SKILLS-BUILD-CYBERSECURITY-PROJECT
- This project aims to develop a secure chat system that ensures end-to-end encryption using AES-256 encryption, making intercepted messages unreadable to attackers.
- Project Title: Secure Chat Application using AES Encryption
+ With increasing digital threats, securely hiding confidential data in images is crucial.
+This project implements steganography to conceal text within images, ensuring data security.
 
 
 
@@ -8,6 +8,14 @@
 Presented By:
 KOHITHA NARAHARI
 
+
+
+
+---
+
+PROJECT TITLE
+
+Secure Data Hiding in Image Using Steganography
 
 
 
@@ -25,18 +33,21 @@ Results
 
 Conclusion
 
+GitHub Link
+
 Future Scope
 
 
 
-
+---
 
 PROBLEM STATEMENT
 
-In today’s digital world, privacy in online communication is a major concern. Traditional chat applications are vulnerable to hacking, making confidential conversations susceptible to eavesdropping. This project aims to develop a secure chat system that ensures end-to-end encryption using AES-256 encryption, making intercepted messages unreadable to attackers.
+With increasing digital threats, securely hiding confidential data in images is crucial.
+This project implements steganography to conceal text within images, ensuring data security.
 
 
-
+---
 
 TECHNOLOGY USED
 
@@ -44,82 +55,80 @@ Programming Language: Python
 
 Libraries:
 
-socket – For client-server communication
+OpenCV (Image processing)
 
-cryptography (PyCryptodome) – For AES-256 encryption and decryption
+NumPy (Matrix operations)
 
-tkinter – For the GUI-based chat interface
+Cryptography (AES encryption for added security)
 
 
-Platforms:
-
-Windows/Linux/Mac
+Platforms: Windows/Linux/Mac
 
 
 
-
-
+---
 
 WOW FACTORS
 
-End-to-End Encryption: Messages are encrypted before transmission and decrypted only by the intended recipient.
+Hidden Message: Text is securely embedded within image pixels.
 
-No Data Storage: Messages are not stored on a server, ensuring privacy.
+Strong Encryption: Uses AES encryption before embedding data.
 
-Lightweight & Fast: Minimal resource usage while providing high security.
+Image Integrity: Hidden data does not alter visible image quality.
 
-Custom Encryption Key: Users can set their own encryption keys for added security.
-
-
+Secure Retrieval: Only authorized users can extract and decrypt the hidden text.
 
 
+
+---
 
 END USERS
 
-Professionals communicating sensitive information
+Government agencies for secure communication.
 
-Students and researchers requiring private discussions
+Journalists and activists needing covert information storage.
 
-Companies ensuring secure internal communication
+Organizations securing confidential records.
 
-Individuals concerned about online privacy
-
-
+Individuals concerned about private data protection.
 
 
+
+---
 
 RESULTS
 
+1. Original Image – Before hiding the message.
 
 
-1. Encrypted message transmission between clients.
+2. Encrypted Image – Image containing the secret text.
 
 
-2. AES key generation and secure message decryption.
-
-
-3. Graphical user interface (GUI) for an easy-to-use chat experience.
-
+3. Extracted & Decrypted Message – Retrieved from the image successfully.
 
 
 
 
+---
 
 CONCLUSION
 
-This project successfully implements a secure chat application using AES encryption, addressing the issue of insecure communication. It ensures confidentiality, prevents unauthorized access, and provides an easy-to-use interface for secure messaging.
+This project successfully hides sensitive data within images using steganography.
+It enhances security, ensuring unauthorized users cannot detect or extract hidden messages.
 
+
+---
 
 
 
 FUTURE SCOPE
 
-Implementing RSA encryption for key exchange.
+Implementing video steganography.
 
-Adding support for voice and video encryption.
+Enhancing encryption with RSA-AES hybrid encryption.
 
-Integrating with mobile platforms (Android & iOS).
-
-
+Integrating AI-based detection resistance mechanisms.
 
 
+
+---
